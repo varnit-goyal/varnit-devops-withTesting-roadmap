@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.344 s <<< FAILURE! - in TestSuite
+TaskCreationTest(Tests.TestCase)  Time elapsed: 0.707 s  <<< FAILURE!
+java.lang.AssertionError: java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "actualValue" is null expected [true] but found [false]
+	at Tests.TestCase.TaskCreationTest(TestCase.java:47)
+
+TaskCreationTest(Tests.TestCase)  Time elapsed: 0.477 s  <<< FAILURE!
+java.lang.AssertionError: java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "actualValue" is null expected [true] but found [false]
+	at Tests.TestCase.TaskCreationTest(TestCase.java:47)
+
